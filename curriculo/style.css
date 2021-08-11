@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: beige;
+  text-align: center;
+  height: 100%;
+}
+
+h1,
+h2 {
+  line-height: 50px;
+}
+
+.dados-pessoais {
+  background-color: wheat;
+}
+
+img {
+  width: 200px;
+  border-radius: 50%;
+}
+
+.dp-dados {
+  background-color: whitesmoke;
+  line-height: 24px;
+  padding: 16px 0;
+}
+
+.dp-contato {
+  background-color: whitesmoke;
+  line-height: 24px;
+  padding: 16px 0;
+}
+
+.historico-academico {
+  background-color: wheat;
+}
+
+.ha-dados {
+  background-color: whitesmoke;
+  line-height: 24px;
+  padding: 16px 0;
+}
+
+.historico-profissional {
+  background-color: wheat;
+}
+
+.hp-dados {
+  background-color: whitesmoke;
+  line-height: 24px;
+  padding: 16px 0;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  line-height: 42px;
+  width: 100%;
+  text-align: center;
+  background-color: whitesmoke;
+}
