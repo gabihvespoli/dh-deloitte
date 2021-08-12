@@ -29,9 +29,9 @@ main {
 }
 
 .section-1 {
-  display: flex;
+  /* display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
   padding: 20px 0;
 }
 
@@ -54,4 +54,48 @@ main {
 
 .arrows img {
   margin: 0 50px;
+}
+
+.sale {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  background: rgba(238, 238, 238, 1);
+  color: rgba(136, 136, 136, 1);
+  width: 256px;
+  margin-top: 42px;
+}
+
+.value {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 12px;
+}
+
+.value h3 {
+  font-weight: 400;
+  font-size: 25px;
+}
+
+.value span {
+  width: 56px;
+  height: 21px;
+  color: #fff;
+  border-radius: 10.5px;
+  text-align: center;
+  font-size: 20px;
+}
+
+.card:first-child span {
+  background: #51d275;
+}
+
+.card:last-child span {
+  background: #dc9730;
+}
+
+.data {
+  padding: 0 12px 12px;
 }
