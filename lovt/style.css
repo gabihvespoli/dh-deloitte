@@ -29,11 +29,11 @@ nav {
 
 main {
   width: 1200px;
-  margin: 0 auto;
+  margin: 36px auto;
 }
 
 section.banner {
-  padding: 20px 0;
+  margin: 40px 0;
 }
 
 section.banner .carousel {
@@ -68,6 +68,10 @@ section.banner .carousel .arrows button {
   cursor: pointer;
 }
 
+section.destaques {
+  margin-bottom: 40px;
+}
+
 section.destaques .sale {
   display: flex;
   justify-content: space-between;
@@ -77,7 +81,6 @@ section.destaques .sale article {
   background: rgba(238, 238, 238, 1);
   color: rgba(136, 136, 136, 1);
   width: 450px;
-  margin-top: 42px;
 }
 
 section.destaques .sale article .info {
