@@ -4,6 +4,7 @@
   margin: 0;
   padding: 0;
   font-family: "Ropa Sans";
+  color: rgba(136, 136, 136, 1);
 }
 
 header {
@@ -79,7 +80,6 @@ section.destaques .sale {
 
 section.destaques .sale article {
   background: rgba(238, 238, 238, 1);
-  color: rgba(136, 136, 136, 1);
   width: 450px;
 }
 
@@ -118,4 +118,84 @@ section.destaques .sale article:first-child span {
 
 section.destaques .sale article:last-child span {
   background: #dc9730;
+}
+
+section.styles {
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+section.styles h2,
+h3 {
+  font-weight: 100;
+}
+
+section.styles article h3 {
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  background: rgba(196, 196, 196, 0.5);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  letter-spacing: 1px;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+section.styles article {
+  padding: 70px 30px;
+  margin: 20px auto;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  position: relative;
+}
+
+footer {
+  background-color: #333333;
+  padding: 40px;
+}
+
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+footer .container .maps iframe {
+  width: 500px;
+  height: 300px;
+  border-radius: 50px;
+  border: none;
+}
+
+footer .container .info p,
+a,
+h5,
+h4 {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 45px;
+  color: #fff;
+}
+
+footer .container .info h5 {
+  margin-top: 36px;
+  line-height: normal;
+}
+
+footer .container .social-medias img {
+  width: 30px;
+  margin: 5px;
 }
