@@ -84,3 +84,10 @@ section.about h1 {
 section.about ol {
   padding-inline-start: 20px;
 }
+
+section.missao .container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
