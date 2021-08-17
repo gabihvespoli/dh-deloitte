@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.bg-color--yellow {
+  background-color: #ffbe51;
+  color: #fff;
+}
+
+.bg-color--gray {
+  background-color: #c4c4c4;
+  color: #000;
+}
+
+.text-color--gray {
+  color: #757575;
+}
+
+.text-color--yellow {
+  color: #ffbe51;
+}
+
+.h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 54px;
+}
+
+header {
+  width: 100%;
+  box-shadow: 0px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+nav {
+  max-width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+footer {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+.menu li {
+  margin: 0 36px;
+  font-weight: 700;
+}
+
+section.banner {
+  padding: 100px 0;
+}
+
+section.banner .container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section.banner .container .article-left {
+  width: 40%;
+}
+
+section.services {
+  display: flex;
+  align-items: center;
+  height: 500px;
+  background-color: #e5e5e5;
+}
+
+section.services .container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+section.services .container h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 70px 0;
+  font-weight: normal;
+}
+
+section.services .container .card {
+  width: 200px;
+  height: 200px;
+  background-color: #fff;
+}
+
+section.services .container .container-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
